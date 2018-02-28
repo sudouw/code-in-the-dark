@@ -1,0 +1,151 @@
+
+    #header {
+        width: 100vw;
+        min-height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        align-items: top;
+        align-content: top;
+        align-self: top;
+        display: inline-block;
+        background-color: #3b284d;
+    }
+    #left-header, #right-header {
+              display: inline-block;
+                      align-self: top;
+                      align-items: top;
+                      align-content: top;
+                      align-self: top;
+    }
+    #right-header {
+      position: relative;
+      top: -23px;
+    }
+    #footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 80px;
+        background-color: #3b284d;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        border-top: 2px solid white;
+    }
+
+    #footer-logo {
+        position: fixed;
+        bottom: 5px;
+        left: 15px;
+        width: 100px;
+        height: 100px;
+    }
+    #main {
+        height: 45vh;
+        width: 100vw;
+        display: inline-block;
+    }
+    #left-main {
+        position: relative;
+        min-width: 20%;
+        height: 100%;
+        display: inline-block;
+    }
+    #right-main {
+        position: relative;
+        width: 75%;
+        height: 100%;
+        display: inline-block;
+    }
+    #list {
+      margin-top: 160px;
+        text-align: left;
+        position: absolute;
+        width: 200px;
+        min-height: 200px;
+        left: 10px;
+        top: 10px;
+        font-weight: 700 !important;
+    }
+    #giving {
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+    }
+    #home {
+       color: #DFC25E;
+    }
+    .text {
+        color: #616056;
+        margin-top: -5px;
+    }
+    #mgh {
+        background-size: cover;
+        width: 100%;
+        position: absolute;
+        top: 152px;
+        right: 0;
+        background-position: center;
+        display: inline-block;
+    }
+    #lower {
+        position: relative;
+        height: 200px;
+        width: 100vw;
+        display: inline-block;
+    }
+    #student-section {
+        height: 100%;
+        width: 35%;
+        display: inline-block;
+    }
+    #students {
+        width: 100%;
+        height: 100%;
+    }
+    #notes {
+      position: relative;
+        width: 60%;
+        display: inline-block;
+        align-items: top;
+        align-content: top;
+        align-self: top;
+        top: -150px;
+    }
+
+    #note-left {
+        background-color: #E8DEBE;
+        color: black;
+        margin-top: 50px;
+        width: 250px;
+                display: inline-block;
+                height: 300px;
+                align-items: top;
+                align-content: top;
+                align-self: top;
+
+    }
+    #note-right {
+      position: relative;
+        background-color: #E8DEBE;
+        top: 50px;
+        color: black;
+        width: 250px;
+                display: inline-block;
+                              height: 300px;
+                              align-items: top;
+                              align-content: top;
+                              align-self: top;
+    }
+    .note-header {
+      position: relative;
+      left: 30px;
+      margin-bottom: 30px;
+        background-color: #DFC25E;
+        font-size: 18px;
+        color: #3b284d;
+        font-weight: 700 !important;
+        padding: 10px;
+    }

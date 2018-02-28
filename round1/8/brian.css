@@ -1,0 +1,75 @@
+* {
+font-family : Helvetica;
+}
+
+body {
+    width : 1200px;
+    height : 1250px;
+}
+
+.picheader {
+    width : 600px;
+    height : 400px;
+    vertical-align : left;
+}
+
+.picheader1 {
+    height : 400px;
+    width : 600px;
+    vertical-align : right;
+}
+
+.building {
+    height : 600px;
+    width : 900px;
+    vertical-align : right;
+}
+
+.text {
+    height : 600px;
+    width : 300px;
+    vertical-align : left;
+    font-size : 16px;
+}
+
+ .link {
+    font-family : Helvetica;
+    color : #616056;
+    font-weight: bold;
+ }
+ 
+ .link1 {
+    padding-bottom: 100px;
+ }
+ 
+ .home {
+  font-family: Helvetica;
+    color: #DFC25E;
+    font-weight : bold;
+    padding-bottom : 5px;
+ }
+
+.table {
+ height : 250px;
+    vertical-align : left;
+}
+.bottomlogo {
+    vertical-align : left;
+    width : 125px;
+    height : 125px;
+}
+
+.box , .box1 {
+ background-color : #E8DEBE;
+ vertical-align : right;
+}
+.h {
+ background-color : #DFC25E;
+
+}
+.footer {
+    height : 100px;
+    color : white;
+    background-color : #3b284d; 
+    text-align : center;
+}

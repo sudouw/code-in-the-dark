@@ -1,0 +1,42 @@
+#banner {
+    background: cover;
+    background-color: #3b284d;
+    padding-top: 10px;
+}
+
+#logo {
+    float: left;
+}
+
+#award {
+    float: right;
+}
+
+
+#nav {
+    font-color: #616056;
+    background-img: http://sudo.world/code-in-the-dark/assets/mgh.jpg;
+}
+
+footer {
+    background: cover;
+    background-color: #3b284d;
+    text-align: center;
+}
+
+.post-it {
+    background-color: #E8DEBE;
+    
+}
+
+post-it-header {
+    background-color: #DFC25E;
+}
+
+#home {
+    background-color: #DFC25E;
+}
+
+
+
+

@@ -1,0 +1,84 @@
+body { 
+    font-family: Verdana, Geneva, sans-serif;
+}
+#header {
+    display: flex;
+}
+#quick-links {
+    font-weight: bold;
+    background: #DFC25E;
+    color: #3b284d;
+    float:right;
+}
+#search-bar {
+    background: #DFC25E; 
+    color: white;
+}
+#search-button {
+    background: fill; 
+}
+.container {
+    background: white;
+    display:flex;
+}
+h3 {
+    background: #DFC25E;
+    color: #3b284d;
+}
+ol {
+    color: black;
+}
+#top-home {
+    color: #DFC25E;
+}
+ul {
+    font-weight: bold;
+    color: #616056;
+}
+#headlines {
+    background: #E8DEBE; 
+    float:right;
+}
+#events {
+    background: #E8DEBE;
+    float:right;
+}
+.footer {
+    background: #DFC25E;
+}
+#ischool-logo  {
+    width:80%;
+}
+
+#student-box{
+    display:flex;
+}
+#right-banner {
+    height: 100%;
+    width: 100%;
+}
+#mgh {
+    height: 100%;
+    width: 100%;
+}
+#giving {
+    width: 50%;
+    margin: 10px;
+}
+#students {
+    height: 100%;
+    width: 100%;
+}
+#rss {
+    height: 5%;
+    width: 5%;
+    float:right;
+}
+#uw-seal {
+    height: 100%;
+}
+footer{
+    background: #3b284d;
+    color:white;
+    display:flex;
+}

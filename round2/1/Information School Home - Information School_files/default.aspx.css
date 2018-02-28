@@ -1,0 +1,108 @@
+﻿/* Styles for main home page. */
+
+.newslink {
+	text-decoration: none;
+}
+.newslink:link {
+	color: #000000;
+}
+.newslink:visited {
+	color: #000000;
+}
+.newslink:hover {
+	color: #616078;
+}
+.newslink:active {
+	color: #616078;
+	/* #616056; */
+}
+
+.downarrow {
+	border: 0px;
+	vertical-align: middle;
+}
+.searchcell {
+	text-align: center;
+	background-color: #3B254B;
+	border-top: 1px solid white;
+	width: 180px;
+}
+.defaultsearchinput {
+	border: 0px;
+	font-size: xx-small;
+	font-family: Verdana, sans-serif;
+	background-color: #ffffff;
+	vertical-align: middle;
+}
+.newsSel a
+{
+	text-decoration: none;
+	}
+.newsSel a:hover 
+{
+	text-decoration: underline;
+	}
+
+.newscell {
+	background-image: url(/web/20070422194913im_/http://www.ischool.washington.edu:80/site/modern/images/newsbkg.jpg);
+	background-repeat: no-repeat;
+	width: 484px;
+	vertical-align: top;
+}
+.newsheaderbar {
+	font-size: 12px;
+	font-family: Verdana, sans-serif;
+	color: #3B254B;
+	font-weight: normal;
+	vertical-align: middle;
+	background-color: #DFC25E;
+
+	
+
+}
+.newsheaderbar a {
+	text-decoration: none;
+	color: #3B254B;
+}
+.newsleaf {
+	background-image: url(/web/20070422194913im_/http://www.ischool.washington.edu:80/site/modern/images/homeslice-newsleafbkg.gif);
+	width: 16px;
+	vertical-align: top;
+}
+.newsbackground {
+	font-size: 11px;
+	font-family: Verdana, sans-serif;
+	color: black;
+	vertical-align: top;
+	background-color: #E8DEBE;
+	/* #B9A568 */
+	width: 214px;
+	padding-top: 3px;
+}
+.rssicon {
+	vertical-align: bottom;
+	padding-bottom: 6px;
+}
+.defaultfootercell {
+	height:65px;
+	width: 726px;
+	background-color: #3B254B;
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	color:White;
+	text-align: center
+}
+.defaultfootercell a{
+
+	text-decoration: none;
+	color: white;
+}
+
+/*
+     FILE ARCHIVED ON 19:49:13 Apr 22, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:50:00 Feb 24, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

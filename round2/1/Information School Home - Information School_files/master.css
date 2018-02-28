@@ -1,0 +1,258 @@
+﻿/* Style sheet for master page. */
+
+/*Styles for dropdowns*/
+.dropdown, .brightdropdown
+{
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid white;
+	border-bottom-width: 0;
+	font: normal 11px Verdana;
+	line-height: 18px;
+	z-index: 100;
+	width: 205px;
+	color: #3B254B;
+}
+
+.dropdown {background-color: #149A9D;}
+
+.brightdropdown {background-color: #CFB872;}
+
+/*Styles for dropdown links*/
+.dropdown a, .brightdropdown a {
+	width: 100%;
+	display: block;
+	border-bottom: 1px solid white;
+	padding: 1px 0;
+	text-decoration: none;
+	font-weight: normal;
+	text-indent: 7px;
+	color: #3B254B;
+}
+.dropdown a {background-color: #149A9D;}
+.dropdown a:hover {background-color: #76C7CA;}
+
+.brightdropdown a {background-color: #E8DEBE;}
+.brightdropdown a:hover {background-color: #DFC25E;}
+
+/*Styles for dropdown cells*/
+.dropdowncell, .brightdropdowncell {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	width: 105px;
+	color: #3B254B;
+}
+.dropdowncell {background-color: #149A9D;}
+.brightdropdowncell {background-color: #DFC25E;}
+
+
+.bannermiddle {
+	background-image: url(/web/20070317045029im_/http://www.ischool.washington.edu/site/modern/images/regslice-banner-middle.jpg);
+	background-repeat: no-repeat;
+	width: 457px;
+	vertical-align: middle;
+}
+.bannercategory {
+	padding-top: 7px;
+	text-align: right;
+	color: white;
+	font-size: 16pt;
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.bannercontext {
+	padding-top: 12px;
+ 	text-align: left;
+	color: white;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	margin-top: 20px;
+}
+.leftbarline {
+	background-color: #3B254B;
+	width: 1px;
+}
+.logobottom {
+	vertical-align: top;
+	width: 170px;
+}
+.leftbarfiller {
+	background-color: #ffffff;
+	width: 170px;
+}
+td.leftnavcolumn {
+	padding-left: 10px;
+	padding-top: 7px;
+	text-align: left;
+	vertical-align: top;
+}
+td.maincolumn {
+	padding-top: 12px;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-family: Verdana, sans-serif;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+}
+td.rightcolumn {
+	padding-top: 22px;
+	font-family: Verdana, sans-serif;
+	vertical-align: top;
+}
+.searchinput {
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	font-size: xx-small;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	font-family: Verdana, sans-serif;
+	background-color: #ffffff;
+}
+.searchpic {
+	border: 0px;
+	vertical-align: middle;
+	padding-top: 3px;
+}
+.footercell {
+	height: 76px;
+	width: 804px;
+	background-color: #3B254B;
+	font-size: 10px;
+	font-family: Verdana, sans-serif;
+	color: White;
+	text-align: left;
+	padding-left: 20px;
+}
+.footercell a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Navigation styles. */
+
+.navSel {
+	color: #B9A568 !important;
+}
+.navSelh {
+	color: #616056;
+}
+.navSelh li:hover {
+	color: #B9A568;
+}
+div.leftnavSel {
+	border-bottom: solid 1px #3B254B;
+	background-color: #F5F4F7;
+}
+div.leftnavSel2 {
+	background-color: #fff;
+}
+#LeftNav {
+	padding: 0;
+	margin: 0;
+	margin-left: 0px;
+	list-style-type: none;
+}
+#LeftNav ul {
+	padding: 0;
+	margin: 0;
+	margin-left: 10px;
+	list-style-type: none;
+}
+#LeftNav li {
+	cursor: pointer;
+	color: #616056;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+#LeftNav li ul li {
+	font-weight: normal;
+}
+#LeftNav a {
+	color: #616056;
+	text-decoration: none;
+}
+#LeftNav a:hover {
+	/*color: #8d8c82;*/
+	color: #B9A568;
+}
+.topnavSel {
+	background-color: #ffffff !important;
+}
+.topnavSel a {
+	background-color: #ffffff !important;
+	color: #B9A568 !important;
+}
+.topnavMainSel a {
+	color: #3B254B !important;
+}
+.topnavMainSel a:hover {
+	color: #B9A568 !important;
+}
+#TopNav {
+	padding: 0px;
+	margin: 0px;
+}
+#TopNav td {
+	line-height: 2em;
+}
+#TopNav span {
+	background-color: #F5F4F7;
+	border-bottom: solid 1px #3B254B;
+	border-right: solid 1px #3B254B;
+	border-top: solid 1px #CECBDA;
+	border-left: solid 1px #CECBDA;
+	padding: 1px 0px 4px 0px;
+}
+#TopNav span a {
+	margin: 4px 4px 4px 4px;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #616056;
+}
+#TopNav span a:hover {
+	color: #B9A568;
+}
+#RightNav {
+	color: #ffffff;
+	font-weight: bold;
+}
+#RightNav a {
+	color: #ffffff;
+	font-size: 10pt;
+}
+#RightNav a:hover {
+	color: #FFF4A3;
+}
+
+/* Styles used in XSL */
+
+heading1, heading2 {
+	font-size: x-large;
+	color: White;
+}
+heading1 {
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+/*
+     FILE ARCHIVED ON 04:50:29 Mar 17, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:50:00 Feb 24, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

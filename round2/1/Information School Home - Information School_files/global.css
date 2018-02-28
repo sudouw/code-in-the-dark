@@ -1,0 +1,27 @@
+/* Global styles for all pages. */
+
+.spacergif {
+	/* style used on spacer gifs to prevent mozilla using text baseline */
+	display: block;
+}
+td img.spacergif {
+	/* style used on spacer gifs to prevent mozilla using text baseline */
+	display: block;
+}
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+a img {
+	border-width: 0px;
+}
+
+/*
+     FILE ARCHIVED ON 04:49:58 Mar 17, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:50:00 Feb 24, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
